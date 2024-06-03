@@ -16,7 +16,7 @@ import {
 
 export const Profile = () => {
   const location = useLocation();
-  const navigate = useNavigate(); // Hook para navegar entre as páginas
+  const navigate = useNavigate();
   const personurl = location.state.personurl;
   const [personData, setPersonData] = useState(null);
 
@@ -25,8 +25,6 @@ export const Profile = () => {
       try {
         const response = await axios.get(personurl);
         const data = response.data;
-
-        // Verifica se o array de espécies está vazio
         let species = [];
         if (data.species.length === 0) {
           const speciesResponse = await axios.get("https://swapi.dev/api/species/1/");

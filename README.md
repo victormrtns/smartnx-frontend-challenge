@@ -4,7 +4,7 @@ This project is a React application that consumes the Star Wars API (SWAPI) usin
 
 ## Features
 
-- **Fetch Data from SWAPI:** Retrieve information about Star Wars characters, planets, starships, and more.
+- **Fetch Data from SWAPI:** Retrieve information about Star Wars characters.
 - **Responsive Design:** Built with Material UI to ensure a responsive and modern user interface.
 - **Icons and Styling:** Enhanced with beautiful icons and stylish components for an engaging user experience.
 - **Fast and Efficient:** Powered by Vite for a fast development and build process.
